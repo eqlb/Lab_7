@@ -8,12 +8,12 @@ public class LifelineSite extends Site{
         double tax = base * Site.TAX_RATE * 0.2;
         return base + tax;
     }
-
-    public double getBaseAmount(){
+    @Override
+    protected double getBaseAmount(){
         return _units * _rate;
     }
-
-    public double getTaxAmount(){
+    @Override
+    protected double getTaxAmount(){
         return this.getBaseAmount() * Site.TAX_RATE;
     }
 }
