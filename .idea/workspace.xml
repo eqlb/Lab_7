@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea42e7fe-c3e0-4ca7-85a5-5c0d499adddf" name="Changes" comment="Updated all three classes to better reflect the starting point from the refactoring.com site">
+    <list default="true" id="ea42e7fe-c3e0-4ca7-85a5-5c0d499adddf" name="Changes" comment="changed getTaxAmount() and getBaseAmount() methods to protected methods">
       <change beforePath="$PROJECT_DIR$/src/LifelineSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LifelineSite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ResidentialSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ResidentialSite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Site.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Site.java" afterDir="false" />
@@ -48,7 +48,7 @@
       <updated>1699398212417</updated>
       <workItem from="1699398215401" duration="1589000" />
       <workItem from="1699547528016" duration="43000" />
-      <workItem from="1699999285186" duration="651000" />
+      <workItem from="1699999285186" duration="994000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1699399160674</created>
@@ -64,7 +64,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699999677504</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Extracted getTaxAmount() and getBaseAmount() methods">
+      <created>1699999967405</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699999967405</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changed getTaxAmount() and getBaseAmount() methods to protected methods">
+      <created>1700000160292</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700000160292</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +98,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Updated all three classes to better reflect the starting point from the refactoring.com site" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated all three classes to better reflect the starting point from the refactoring.com site" />
+    <MESSAGE value="Extracted getTaxAmount() and getBaseAmount() methods" />
+    <MESSAGE value="changed getTaxAmount() and getBaseAmount() methods to protected methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed getTaxAmount() and getBaseAmount() methods to protected methods" />
   </component>
 </project>

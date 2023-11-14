@@ -6,9 +6,9 @@ public abstract class Site {
     protected double _rate;
 
 
-    public Site(int _units, double _rate) {
-        this._units = _units;
-        this._rate = _rate;
+    public Site(int units, double rate) {
+        this._units = units;
+        this._rate = rate;
     }
 
     public double getBillableAmount(){
