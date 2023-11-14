@@ -1,4 +1,4 @@
-public class Site {
+public abstract class Site {
 
 
     protected static final double TAX_RATE = 0.2;
@@ -10,4 +10,12 @@ public class Site {
         this._units = _units;
         this._rate = _rate;
     }
+
+    public double getBillableAmount(){
+        return getBaseAmount() + getTaxAmount();
+    }
+
+    protected abstract double getTaxAmount();
+
+    protected abstract double getBaseAmount();
 }
